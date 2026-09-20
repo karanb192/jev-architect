@@ -1,0 +1,4 @@
+interface:
+  display_name: "Jev Architect"
+  short_description: "Find and design high-value Jev decision loops"
+  default_prompt: "Use $jev-architect to find where Jev belongs in this system and design a measured first experiment."

@@ -1,0 +1,13 @@
+{
+  "name": "jev-architect",
+  "version": "0.1.0",
+  "description": "Find, design, and evaluate high-value Jev decision loops.",
+  "author": {
+    "name": "Karan Bansal"
+  },
+  "homepage": "https://github.com/karanb192/jev-architect",
+  "repository": "https://github.com/karanb192/jev-architect",
+  "license": "MIT",
+  "keywords": ["jev", "typesafe", "system-one", "ai-agents"],
+  "skills": "./skills"
+}

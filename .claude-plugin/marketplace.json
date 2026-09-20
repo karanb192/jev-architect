@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "jev-architect-marketplace",
+  "description": "Jev Architect for Claude Code",
+  "owner": {
+    "name": "Karan Bansal"
+  },
+  "plugins": [
+    {
+      "name": "jev-architect",
+      "version": "0.1.0",
+      "description": "Find, design, and evaluate high-value Jev decision loops.",
+      "source": "."
+    }
+  ]
+}
