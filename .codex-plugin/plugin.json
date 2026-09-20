@@ -1,7 +1,7 @@
 {
   "name": "jev-architect",
-  "version": "0.2.0",
-  "description": "Find, design, and evaluate high-value Jev decision loops.",
+  "version": "0.2.1",
+  "description": "Explore what to build with Jev, improve existing workflows, and plan a first experiment.",
   "author": {
     "name": "Karan Bansal"
   },
@@ -12,13 +12,14 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Jev Architect",
-    "shortDescription": "Find high-value Jev decision loops",
-    "longDescription": "Research current capabilities, find decision loops, design bounded Jev questions, and define a fair rollout evaluation.",
+    "shortDescription": "Explore what to build with Jev",
+    "longDescription": "Explore new product ideas or improve existing software. Check current documentation, design Jev questions and fallbacks, and plan a first experiment.",
     "developerName": "Karan Bansal",
     "category": "Productivity",
     "capabilities": ["Interactive", "Write"],
     "websiteURL": "https://github.com/karanb192/jev-architect",
     "defaultPrompt": [
+      "Help me explore what I could build with Jev.",
       "Find where Jev belongs in this system.",
       "Explain Jev for my current level.",
       "Audit this Jev design and its fallbacks."

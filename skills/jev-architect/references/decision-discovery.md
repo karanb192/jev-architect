@@ -8,6 +8,8 @@ state arrives → semantic judgment → threshold or policy → action → outco
 
 ## Inventory candidates
 
+For a new product, start with the person and the unmet need. Ask only what changes the recommendation, such as the current workaround, available context, acceptable mistakes, budget, and response time. Offer a few distinct directions after clarification. Each should name the useful behavior, Jev's specific judgment, what ordinary code or another model does, and the smallest test of user value. Do not assume the user has software already.
+
 Look for decisions in these places:
 
 | Boundary | Typical question | First check |
@@ -17,17 +19,11 @@ Look for decisions in these places:
 | Filtering | Is this relevant, suspicious, duplicate, or worth retaining? | Is the label definition stable? |
 | Ranking | Which candidates are useful? | Can candidates be scored independently? |
 | Verification | Did the task meet the stated condition? | Is there an eventual ground truth? |
-| Escalation | Is confidence high enough to proceed? | Is the fallback safe and affordable? |
+| Escalation | Does this case need more context or a person's judgment? | Can code use existing evidence and uncertainty to route it? |
 
-Rank each candidate by its expected value, not novelty:
+Rank candidates by user value, available evidence, error consequences, latency needs, all-in cost, and integration effort. Keep seconds and money separate rather than adding them into a single value formula. For cost estimates, state the time period and workload. Count Jev calls plus downstream calls on each branch, retries, review, and maintenance; do not count a fallback as a call avoided. Use scenarios when usage or coverage is unknown.
 
-```text
-value hypothesis = frequency × per-call cost or latency avoided × usable coverage
-                 + value of the newly possible capability
-                 − error cost − review cost − integration cost
-```
-
-This is an estimation tool, not a claim of savings. Record the numbers and assumptions that support it.
+For an existing workflow, compare with the actual baseline. For a new product, compare with the simplest way to serve that need, including a manual prototype. The first test may be whether anyone wants the behavior, before benchmarking models.
 
 ## Reject bad fits early
 

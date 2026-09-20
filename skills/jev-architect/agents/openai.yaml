@@ -1,4 +1,4 @@
 interface:
   display_name: "Jev Architect"
-  short_description: "Find and design high-value Jev decision loops"
-  default_prompt: "Use $jev-architect to find where Jev belongs in this system and design a measured first experiment."
+  short_description: "Explore what to build with Jev and what to test first"
+  default_prompt: "Use $jev-architect to explore what I could build or improve with Jev, ask about my users and constraints, and propose a first experiment."

@@ -8,8 +8,8 @@
   "plugins": [
     {
       "name": "jev-architect",
-      "version": "0.2.0",
-      "description": "Find, design, and evaluate high-value Jev decision loops.",
+      "version": "0.2.1",
+      "description": "Explore what to build with Jev, improve existing workflows, and plan a first experiment.",
       "source": "."
     }
   ]
