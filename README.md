@@ -1,5 +1,7 @@
 # Jev Architect
 
+![A systems architect maps a Jev decision workflow from messy state to automated action or human review.](assets/jev-architect-illustration-v2.png)
+
 Most Jev discussions start at the API. The harder question comes first: where does a fast, bounded semantic decision belong in a system?
 
 Jev Architect helps an agent answer that question. It can explain Jev at the user’s level, inspect a workflow or codebase, check current product documentation, separate exact rules from fuzzy decisions, and design a small measured rollout.
