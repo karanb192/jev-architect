@@ -18,6 +18,14 @@ Jev is a decision model. It reads state and returns a bounded answer with probab
 
 If the target system is unclear, ask for it only after giving a concise explanation when that is helpful. Do not make a user describe a codebase before answering “what is Jev?”
 
+## Keep Explain fast
+
+For **Explain**, answer from the skill's stable mental model first. Do not browse, inspect files, or run commands for a basic conceptual explanation, a familiarity-level explanation, or a contrast with code and an LLM.
+
+Check current sources only when the user asks for current facts, pricing, latency, limits, release details, a citation, or a named integration. When an explanation and current facts are both useful, give the explanation first and keep volatile facts in a short, clearly labeled follow-up.
+
+Do not add vendor speed, cost, version, or release claims to an explanation unless the user asked for them.
+
 ## Keep the recommendation current
 
 Before recommending an integration with a named agent, framework, SDK, runtime, or product:
