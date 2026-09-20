@@ -55,13 +55,13 @@ Codex can use the included plugin manifest or the portable skill folder.
 
 ## Try it
 
-Start with a problem, even if you haven't built anything yet.
+Explore a new language-learning tool, even if you haven't built anything yet.
 
 ```text
-Use Jev Architect. I often miss messages that need a reply. Help me explore tools I could build to solve this. Ask how I handle messages today, suggest a few ideas, and explain where Jev could help. Pick one small test before I start building.
+Use Jev Architect. I want to help people practise English, but I haven't chosen what to build. Ask who I want to help and what they struggle with. Suggest a few ideas where Jev could help, then pick one small test before I build anything.
 ```
 
-Or compare it with something you already use.
+Or improve how an existing tool sorts messages.
 
 ```text
 Use Jev Architect. I use a language model to flag messages that need a reply. Could Jev reduce the time or cost without missing important requests? Ask about my setup and help me design a comparison.
