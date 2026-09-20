@@ -20,7 +20,7 @@ The skill is built around [TypeSafe Jev](https://typesafe.ai/) and its Choice, N
 
 ## Install
 
-This repository uses the portable Agent Skills layout. After it is published to GitHub, install it with your preferred skill manager or clone it into your agent’s skill directory.
+This repository uses the portable Agent Skills layout. Install it with your preferred skill manager or clone it into your agent’s skill directory.
 
 For the skills.sh CLI, install the `jev-architect` skill from the published repository:
 
@@ -28,7 +28,18 @@ For the skills.sh CLI, install the `jev-architect` skill from the published repo
 npx skills add karanb192/jev-architect --skill jev-architect
 ```
 
-Claude Code can use the included plugin manifest. Codex can use the included plugin manifest or the portable skill folder.
+### Claude Code
+
+In Claude Code, add the marketplace, then install the plugin:
+
+```text
+/plugin marketplace add karanb192/jev-architect
+/plugin install jev-architect@jev-architect-marketplace
+```
+
+If Claude Code asks to activate plugin changes, run `/reload-plugins`. Then invoke `/jev-architect:jev-architect` or ask Claude to use Jev Architect for the task.
+
+Codex can use the included plugin manifest or the portable skill folder.
 
 ## Try it
 
