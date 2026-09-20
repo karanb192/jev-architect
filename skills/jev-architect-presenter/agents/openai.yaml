@@ -1,0 +1,5 @@
+interface:
+  display_name: "Jev Architect Presenter"
+  short_description: "Turn Jev designs into clear public pages"
+  brand_color: "#0F5F6B"
+  default_prompt: "Use $jev-architect-presenter to create a clear public landing page from this approved Jev design."
