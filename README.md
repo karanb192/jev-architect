@@ -41,8 +41,6 @@ If Claude Code asks to activate plugin changes, run `/reload-plugins`. Then invo
 
 Codex can use the included plugin manifest or the portable skill folder.
 
-The repository also includes `jev-architect-presenter`, an optional companion skill for public Jev landing pages and explainers.
-
 ## Try it
 
 ```text
