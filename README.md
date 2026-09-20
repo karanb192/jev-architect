@@ -60,19 +60,19 @@ Paste these prompts into your coding agent's chat, not your terminal.
 Explore a new language-learning tool, even if you haven't built anything yet.
 
 ```text
-Use Jev Architect. I want to help people practise English, but I haven't chosen what to build. Ask who I want to help and what they struggle with. Suggest a few ideas where Jev could help, then pick one small test before I build anything.
+Use Jev Architect. I want to help adults practise spoken English between lessons. What could I build?
 ```
 
-Improve product search in an online shop.
+Help a coding agent notice when it is stuck.
 
 ```text
-Use Jev Architect. My online shop misses useful products when shoppers search for things like “a jacket for rainy walks.” Could Jev help show better matches without making search too slow? Ask how search works today, compare simpler fixes, and suggest a small test.
+Use Jev Architect. My coding agent keeps retrying fixes that don't work. Could Jev help it notice when it's stuck and ask me for help?
 ```
 
-Test a new kind of interaction in a game.
+Explore a browser assistant for finding supplier invoices.
 
 ```text
-Use Jev Architect. I’m making a game where characters can help the player, trade with them, or walk away. Could Jev choose how they react to what the player says and does? Help me test one character, including what happens if Jev is slow or unsure.
+Use Jev Architect. I want a browser assistant that finds invoices across supplier websites with different layouts. Could Jev help it choose what to click?
 ```
 
 ### Why does it sometimes browse?
