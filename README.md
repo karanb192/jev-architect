@@ -25,7 +25,7 @@ The next step is a small experiment with a baseline and a reason to stop if Jev 
 
 This repository uses the portable Agent Skills layout. Install it with your preferred skill manager or clone it into your agent’s skill directory.
 
-For the skills.sh CLI, install the `jev-architect` skill from the published repository:
+For the skills.sh CLI, paste this command into your terminal and choose your agent:
 
 ```bash
 npx skills add karanb192/jev-architect --skill jev-architect
@@ -33,14 +33,14 @@ npx skills add karanb192/jev-architect --skill jev-architect
 
 ### Claude Code
 
-In Claude Code, add the marketplace, then install the plugin:
+With Claude Code installed, paste both commands into your terminal (Terminal, iTerm, or your editor's terminal). These are shell commands, not chat messages.
 
-```text
-/plugin marketplace add karanb192/jev-architect
-/plugin install jev-architect@jev-architect-marketplace
+```bash
+claude plugin marketplace add karanb192/jev-architect
+claude plugin install jev-architect@jev-architect-marketplace
 ```
 
-If Claude Code asks to activate plugin changes, run `/reload-plugins`. Then invoke `/jev-architect:jev-architect` with your request or ask Claude to use Jev Architect.
+Run `claude` in your terminal to start a new session after installing. Inside its chat, paste a prompt from [Try it](#try-it). You can also invoke `/jev-architect:jev-architect` there with your request.
 
 To update an existing installation, run these commands in your terminal, then start a fresh Claude Code session. Use the scope you originally installed in if it wasn't the default user scope.
 
@@ -55,26 +55,24 @@ Codex can use the included plugin manifest or the portable skill folder.
 
 ## Try it
 
+Paste these prompts into your coding agent's chat, not your terminal.
+
 Explore a new language-learning tool, even if you haven't built anything yet.
 
 ```text
 Use Jev Architect. I want to help people practise English, but I haven't chosen what to build. Ask who I want to help and what they struggle with. Suggest a few ideas where Jev could help, then pick one small test before I build anything.
 ```
 
-Or improve how an existing tool sorts messages.
+Improve product search in an online shop.
 
 ```text
-Use Jev Architect. I use a language model to flag messages that need a reply. Could Jev reduce the time or cost without missing important requests? Ask about my setup and help me design a comparison.
+Use Jev Architect. My online shop misses useful products when shoppers search for things like “a jacket for rainy walks.” Could Jev help show better matches without making search too slow? Ask how search works today, compare simpler fixes, and suggest a small test.
 ```
 
-For a first explanation or a design review, try either of these.
+Test a new kind of interaction in a game.
 
 ```text
-Use Jev Architect to explain Jev in plain language, with one everyday example and one case where I should not use it.
-```
-
-```text
-Use Jev Architect to audit this design. Check the question, possible answers, thresholds, and what happens on uncertainty, missing context, or an API failure.
+Use Jev Architect. I’m making a game where characters can help the player, trade with them, or walk away. Could Jev choose how they react to what the player says and does? Help me test one character, including what happens if Jev is slow or unsure.
 ```
 
 ### Why does it sometimes browse?
