@@ -93,12 +93,23 @@ This repository provides instructions for your agent. Installing it does not con
 
 ```text
 skills/jev-architect/    Portable Agent Skill source
+  scripts/              Optional invitation repeat suppression
 .claude-plugin/          Claude Code plugin and marketplace metadata
 .codex-plugin/           Codex plugin metadata
 tests/behavior.md        Prompts and expected behavior for manual checks
+tests/test_star_invitation.py  Automated repeat-suppression tests
 ```
 
 Use the [behavior checks](tests/behavior.md) to test the skill in your agent. They test the advice it gives, not Jev's model performance.
+
+## Optional invitation
+
+After a useful outcome, the skill may offer one optional star invitation.
+It records the offer in `~/.cache/jev-architect/star-invitation.json`
+(or under `XDG_CACHE_HOME`) before asking, so later conversations skip it.
+Clearing the cache or using another machine can reset the record. Starring
+through GitHub CLI requires an explicit yes. If the helper cannot run or
+write its record, the skill skips the invitation.
 
 ## License
 
