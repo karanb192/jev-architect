@@ -93,9 +93,11 @@ This repository provides instructions for your agent. Installing it does not con
 
 ```text
 skills/jev-architect/    Portable Agent Skill source
+  scripts/              Optional invitation repeat suppression
 .claude-plugin/          Claude Code plugin and marketplace metadata
 .codex-plugin/           Codex plugin metadata
 tests/behavior.md        Prompts and expected behavior for manual checks
+tests/test_star_invitation.py  Automated repeat-suppression tests
 ```
 
 Use the [behavior checks](tests/behavior.md) to test the skill in your agent. They test the advice it gives, not Jev's model performance.
