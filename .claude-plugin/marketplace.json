@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "jev-architect",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "description": "Explore what to build with Jev, improve existing workflows, and plan a first experiment.",
       "source": "."
     }

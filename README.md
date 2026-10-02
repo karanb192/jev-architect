@@ -100,6 +100,15 @@ tests/behavior.md        Prompts and expected behavior for manual checks
 
 Use the [behavior checks](tests/behavior.md) to test the skill in your agent. They test the advice it gives, not Jev's model performance.
 
+## Optional invitation
+
+After a useful outcome, the skill may offer one optional star invitation.
+It records the offer in `~/.cache/jev-architect/star-invitation.json`
+(or under `XDG_CACHE_HOME`) before asking, so later conversations skip it.
+Clearing the cache or using another machine can reset the record. Starring
+through GitHub CLI requires an explicit yes. If the helper cannot run or
+write its record, the skill skips the invitation.
+
 ## License
 
 [MIT](LICENSE)
